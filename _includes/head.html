@@ -1,0 +1,33 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>{% if page.title == "Home" %}{{ site.title }} &middot; {{ site.tagline }}{% else %}{% if page.tag %}{{ site.data.tags[page.tag].name }}{% else %}{{ page.title }}{% endif %} &middot; {{ site.title }}{% endif %}</title>
+
+  {% assign color = page.color %}
+
+  {% unless color %}
+    {% if page.tag %}
+      {% assign tag = site.data.tags[page.tag] %}
+      {% assign color = tag.color %}
+    {% else %}
+      {% if page.tags.size > 0 %}
+        {% assign tag_name = page.tags[0] %}
+        {% assign tag = site.data.tags[tag_name] %}
+        {% assign color = tag.color %}
+      {% endif %}
+    {% endif %}
+  {% endunless %}
+
+  {% unless color %}
+    {% assign color = site.color %}
+  {% endunless %}
+  {% include styles.html %}
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.url }}{{ site.baseurl }}/atom.xml">
+</head>

@@ -1,0 +1,40 @@
+# Permalinks
+permalink:        pretty
+
+# Setup
+url:              https://clarkhacks-labs.github.io
+
+# Set to '' in case of hosting on `http://<your-github-name>.github.io`
+baseurl:
+
+title:            Clark Hacks | Labs
+# Markdown enabled, however don't use more than one paragraph (enforced by `>`)
+description:      >
+  A place were `code` is born. This is the laboratory of Clark Hacks!
+
+# The tags listed as entries in the sidebar
+sidebar_tags:     [buggy, featured, new]
+
+# Fallback image and color if not overwritten for tag or post
+image:            /hydejack/public/img/nap.jpg
+color:            '#A85641'
+
+author:
+  name:           'Clark Hacks'
+
+  # Setting social media usernames will add icons at the bottom of the sidebar
+  github:         clarkhacks
+
+
+  # This photo will be used in the about section
+  photo:         https://git.io/voX5u
+
+
+  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+  about:          |
+    Hello! I'm Clark Weckmann (AKA `@clarkhacks`)! I don't do much outside the realm of javascript and HTML. Check out some of my work here or at my main page [clarkhacks](https://clarkhacks.github.io/).
+
+kramdown:
+  math_engine: mathjax
+  math_engine_opts:
+    preview: true
