@@ -4,14 +4,7 @@ layout: default
 
 {% assign tag = site.data.tags[page.tag] %}
 
-<h1 class="page-title">{{ tag.name }}</h1>
-{% if tag.description %}
-  {% comment %}
-    Adding the "message" class to the last (and usually only) paragraph of the description.
-  {% endcomment %}
-  {% capture desc %}{{ tag.description }}{:.message}{% endcapture %}
-  {{ desc | markdownify }}
-{% endif %}
+<h3 class="page-title">{{ tag.name }}</h3>
 <hr/>
 
 {% if site.tags[page.tag] %}
@@ -19,17 +12,16 @@ layout: default
     {% assign currentdate = post.date | date: "%Y" %}
     {% if currentdate != date %}
       {% unless forloop.first %}</ul><hr/>{% endunless %}
-      <h2 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+      <h4 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h4>
       <ul class="related-posts">
       {% assign date = currentdate %}
     {% endif %}
     <li>
-      <h4>
+      <h1>
         <a href="{{ post.url | prepend:site.baseurl }}">
           <span>{{ post.title }}</span>
-          <small>{{ post.date | date: "%m/%d" }}</small>
         </a>
-      </h4>
+      </h1>
     </li>
     {% if forloop.last %}</ul><hr/>{% endif %}
   {% endfor %}

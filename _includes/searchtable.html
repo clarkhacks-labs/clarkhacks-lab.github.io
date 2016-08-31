@@ -14,14 +14,16 @@
             <td>Docs</td>
         </tr></thead>
     <tbody>
-        <tr>
-            <td>Table Search</td>
-            <td><a href="https://git.io/vivqL" target="_blank">ReadMe</a></td>
-        </tr>
-        <tr>
-            <td>Patreon Cards</td>
-            <td><a href="https://git.io/vivm0" target="_blank">ReadMe</a></td>
-        </tr>
+        {% for post in site.tags.repo limit: 10 %}
+          <tr class="post_info">
+            <td>
+                 <a href="{{ post.url }}">{{ post.title }}</a>
+            </td>
+            <td>
+              <a href="{{ post.docs }}" target="_blank">ReadMe</a>
+            </td>
+          </tr>
+          {% endfor %}
 
         </tbody></table>
 </div>

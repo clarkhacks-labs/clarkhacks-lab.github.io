@@ -11,23 +11,23 @@
 #     *My Tag* is an example of how to define a custom tag.
 # ~~~
 
-buggy:
-  name: Buggy
-  image: /hydejack/public/img/hyde.jpg
-  color: '#949667'
+works:
+  name: In the Making
+  image: /public/img/grains.jpg
+  color: '#0d0d0d'
   description: >
-    So you like bugs? Well have some! This code does it's job but has some bugs here and there. If you can fix them let me know!
+    These are projects not ready for the public yet.
 
 new:
   name: New
-  image: /hydejack/public/img/jekyll.jpg
-  color: '#949667'
+  image: /public/img/pollen.jpg
+  color: '#0d0d0d'
   description: >
     All the new code is placed here! Check it out!
 
 featured:
   name: Featured
-  image: /hydejack/public/img/jekyll.jpg
-  color: '#949667'
+  image: /public/img/tubular.jpg
+  color: '#0d0d0d'
   description: >
     The featured works! This is were the best of the best get put!

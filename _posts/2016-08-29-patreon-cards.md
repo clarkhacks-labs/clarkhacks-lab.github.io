@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Patreon Cards!
-tags: [featured, new]
+tags: [featured, repo, new]
+docs: https://git.io/vivm0
 ---
 
 ### [Patreon Cards](https://github.com/clarkhacks-labs/patreon-cards) `alpha`

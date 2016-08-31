@@ -1,6 +1,5 @@
 # Permalinks
-permalink:        pretty
-
+permalink:
 # Setup
 url:              https://clarkhacks-labs.github.io
 
@@ -13,10 +12,10 @@ description:      >
   A place were `code` is born. This is the laboratory of Clark Hacks!
 
 # The tags listed as entries in the sidebar
-sidebar_tags:     [buggy, featured, new]
+sidebar_tags:     [works, featured, new]
 
 # Fallback image and color if not overwritten for tag or post
-image:            /hydejack/public/img/nap.jpg
+image:            /public/img/anom.jpg
 color:            '#A85641'
 
 author:
