@@ -53,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
+    color: #474A5B ;
   position: relative;
   padding-bottom: 0.15em;
   border-bottom: 0.15em solid transparent;
