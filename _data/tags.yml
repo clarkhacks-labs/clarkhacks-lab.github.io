@@ -11,13 +11,6 @@
 #     *My Tag* is an example of how to define a custom tag.
 # ~~~
 
-works:
-  name: In the Making
-  image: /public/img/grains.jpg
-  color: '#0d0d0d'
-  description: >
-    These are projects not ready for the public yet.
-
 new:
   name: New
   image: /public/img/pollen.jpg

@@ -12,7 +12,7 @@ description:      >
   A place were `code` is born. This is the laboratory of Clark Hacks!
 
 # The tags listed as entries in the sidebar
-sidebar_tags:     [works, featured, new]
+sidebar_tags:     [featured, new]
 
 # Fallback image and color if not overwritten for tag or post
 image:            /public/img/anom.jpg

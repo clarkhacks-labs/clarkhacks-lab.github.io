@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Patreon Cards!
-tags: [featured, repo, new]
+tags: [featured, repo]
 docs: https://git.io/vivm0
 docname: ReadMe
+website: https://clarkhacks-labs.github.io/patreon-cards/
 ---
 
 ### [Build Your Patreon Card Here!](https://clarkhacks-labs.github.io/patreon-cards/) `<-- Creation Lab`
