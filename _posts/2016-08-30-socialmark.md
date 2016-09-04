@@ -3,6 +3,7 @@ layout: post
 title: Social Mark
 tags: [works, repo]
 docs: https://git.io/viTG6
+docname: ReadMe
 ---
 <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">

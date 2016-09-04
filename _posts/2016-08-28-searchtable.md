@@ -3,6 +3,7 @@ layout: post
 title: Searchable Table
 tags: [new, repo]
 docs: https://git.io/vivqL
+docname: ReadMe
 ---
 ### [Searchable Table](https://github.com/clarkhacks-labs/Searchable-Table)
 This is exactly what it sounds like!
